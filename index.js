@@ -1,5 +1,4 @@
 var http = require('http');
-<<<<<<< HEAD
 const _ = require("lodash")
 
 var server = http.createServer(function(request, response) {
@@ -17,14 +16,6 @@ console.log(c2);
 
     response.end(c1);
     response.end(c2);
-=======
-
-var server = http.createServer(function(request, response) {
-
-    response.writeHead(200, { "Content-Type": "text/html" });
-    response.end("<html><body><h1>Hello World welcome to Azure world apps!</h1></body></html>");
-
->>>>>>> origin/master
 });
  
 var port = process.env.PORT || 1337;
